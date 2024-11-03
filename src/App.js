@@ -12,7 +12,7 @@ function App() {
   });
 
   const secret = process.env.REACT_APP_APIkey
-  const apiurl = "http://www.omdbapi.com/?apikey=" + secret
+  const apiurl = "https://www.omdbapi.com/?apikey=" + secret
 
   const search = (e) => {
     if(e.key === "Enter"){
